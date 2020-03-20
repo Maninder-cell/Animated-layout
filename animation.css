@@ -1,0 +1,46 @@
+@keyframes moving_border {
+    0% {
+      border-left: 2px solid rgb(54, 47, 47);
+    }
+    25% {
+      border-bottom: 2px solid rgb(54, 47, 47);
+    }
+    50% {
+      border-right: 2px solid rgb(54, 47, 47);
+    }
+    100% {
+      border-top: 2px solid rgb(54, 47, 47);
+    }
+}
+
+@keyframes moving_border_1 {
+  0% {
+    border-left: 1px solid rgb(54, 47, 47);
+  }
+  25% {
+    border-bottom: 1px solid rgb(54, 47, 47);
+  }
+  50% {
+    border-right: 1px solid rgb(54, 47, 47);
+  }
+  100% {
+    border-top: 1px solid rgb(54, 47, 47);
+  }
+}
+
+@keyframes rotates
+{
+  50% {transform: rotate(3deg);}
+  100% {transform: rotate(-3deg);}
+}
+
+@keyframes rotates1
+{
+  50% {transform: rotate(-3deg);}
+  100% {transform: rotate(3deg);}
+}
+
+@keyframes image_move
+{
+  100% {right:0%;left:0%;bottom:0%;z-index:0;position:static !important;}
+}
